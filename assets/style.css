@@ -10,7 +10,7 @@ body{
         /* border: 1px solid black; */
         max-width: 500px;
         margin-top: 90px;
-        margin-bottom:29px;
+        margin-bottom:32px;
         display: flex;
         justify-content: space-between;
         align-items: flex-start;
@@ -105,7 +105,7 @@ body{
     .kurs{
         /* border: 1px solid black; */
         width: 365px;
-        height: 60px;
+        height: 53px;
         font-family: 'Roboto Slab';
         font-style: normal;
         font-weight: 700;
@@ -113,13 +113,14 @@ body{
         line-height: 101.38%;
         padding-top: 0;
     }
-    .row2{
+    .second .row2{
         padding: 0;
         display: flex;
         justify-content: space-between;
         width: 1170px;
+        margin-bottom: 90px;
     }
-    .row2 .c{
+    .second .row2 .c{
         width: 662px;
         height: 374px;
         font-family: 'Roboto';
@@ -129,7 +130,76 @@ body{
         line-height: 150%;
 
     } 
-    .row2 .d{
+    .second .row2 .d{
+        padding-top: 20px;
+    }
+    /* .row2 .d{
         border: 1px solid black;
+    } */
+    .second .row3{
+        width: 1000px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .second .row3 .kub{
+        padding-top: 50px;
+        width: 150px;
+        height: 39px;
+    }
+    .second .row3 .kub .h{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 25px;
+        line-height: 130%;
+        padding-bottom: 0;
+        margin-bottom: 0;
+    }
+    .second .row3 .kub .k{
+        padding-top: 10px;
+        margin-top: 0;
+        font-family: 'Roboto';
+        font-style: normal;
+    }
+    .second .row3 .rej{
+        margin-right: 40px;
+    }
+    .third .format{
+        width: 667px;
+        height: 93px;
+        font-family: 'Roboto Slab';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 55px;
+        line-height: 101.38%;
+        margin-bottom: 65px;
+        
+    }
+    .third .row2{
+        display: flex;
+        justify-content: space-between;
+        width: 980px;
+    }
+    .third{
+        margin-top:175px;
+    }
+    .third .row2 .kub .k{
+        width: 250px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 130%;
+        
+    }
+    .third .row2 .kub .h{
+        width: 214px;
+        height: 20px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 25px;
+        line-height: 130%;
+        color:#1E4681
     }
 }
